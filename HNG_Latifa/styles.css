@@ -1,0 +1,172 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Karla', sans-serif;
+}
+/* Controls the body tag */
+body{
+  color: whitesmoke;
+  width: 100%;
+  height: 100vh;
+  background-color: #000000;
+  background-position: center;
+  background-size: cover;
+  padding-top: 35px;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+/* Controls the h2 element */
+
+h2{
+  color: #444;
+}
+/* Stling one of the buttons */
+.hng{
+  text-decoration: none;
+  margin-right: 15px;
+  font-size: 18px;
+  color: #fff;
+  padding: 9px 25px;
+  background-color: #00000007;
+  border: 1px solid #fff;
+  border-radius: 6px;
+  opacity: 0.6;
+  transition: 0.5s;
+  transition: 0.5s;
+}
+/* Its the hover for one of the buttons in the nav */
+.hng:hover{
+  background: #fff;
+  margin-right: 15px;
+  font-size: 18px;
+  color: #000;
+  opacity: 1;
+}
+span{
+  color: #f9004d;
+}
+
+h1 {
+  color: #333;
+}
+/* Stling one of the buttons */
+.key{
+  background: #fff;
+  border-radius: 6px;
+  padding: 9px 25px;
+  text-decoration: none;
+  transition: 0.5s;
+  font-size: 18px;
+  color: #000;
+  opacity: 0.6;
+  transition: 0.5s;
+}
+/* Its the hover for one of the buttons in the nav */
+.key:hover{
+  text-decoration: none;
+  margin-right: 15px;
+  font-size: 18px;
+  background-color: #00000000;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 6px;
+  opacity: 1;
+}
+
+.content{
+  margin-top: 10%;
+  max-width: 600px;
+}
+.content h2{
+  font-size: 40px;
+  color: #fff;
+}
+.content p{
+  margin-top: 10px;
+  line-height: 25px;
+}
+
+
+nav{
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo a{
+  font-size: 40px;
+  font-weight: 1rem;
+  text-decoration: none;
+  color: #fff;
+}
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 10px 15px;
+}
+nav ul li a{
+  text-decoration: none;
+  transition: 0.5s;
+  color: #fff;
+}
+nav ul li a:hover{
+  color: #f9004d;
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+}
+
+#more {display: none;}
+
+button{
+  margin-right: 15px;
+  font-size: 18px;
+  color: #fff;
+  padding: 9px 25px;
+  background-color: #00000007;
+  border: 1px solid #fff;
+  border-radius: 6px;
+  opacity: 0.6;
+  transition: 0.5s;
+  transition: 0.5s;
+}
+
+button:hover{
+  background: #fff;
+  margin-right: 15px;
+  font-size: 18px;
+  color: #000;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.current{
+ display: block;
+ text-decoration: none;
+ color: #fff;
+ justify-content: space-between;
+ margin-bottom: 3%;
+ margin-top: 5%;
+ max-width: 600px;
+}
+
+.links ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 10px 15px;
+}
+.links ul li a{
+  text-decoration: none;
+  transition: 0.5s;
+  color: #fff;
+}
+
+

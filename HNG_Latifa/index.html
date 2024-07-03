@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Tech Goals</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Controls the nav -->
+    <div id="container" class="container">
+        <nav>
+            <div class="logo">
+                <a href="#">My<span>Goals</span></a>
+              </div>
+            <ul>
+                <li><a href="#goals">Home</a></li>
+                <li><a href="#currentday">Current</a></li>
+                <li><a href="#usefullinks">Links</a></li>
+              </ul>
+              
+              <div class="buttons">
+                  <a data-testid="hngLink" href="https://hng.tech/learn" class="hng">HNG Learn</a>
+                  <a data-testid="keywordLink" href="https://keyword.dog" class="key">Keyword Dog</a>
+                </div>
+            </nav>
+            <!-- Controls the goals section -->
+            <div class="content">
+        <section id="tech-goals">
+        <h2>Goals</h2>
+        <p>
+            <p>Over the next two years, I aim to become proficient in front-end development using both React and Vue.js, focusing on building interactive and responsive user interfaces. My goal is to deepen my understanding of these frameworks to create seamless and engaging user experiences.<div id="dots">...</div><div id="more"> I also plan to master back-end development with Node.js and Express, enabling me to handle server-side logic and database interactions efficiently. By combining these skills, I hope to become a versatile full-stack developer capable of working on both client-side and server-side applications.</p>
+            <p>One of my significant goals is to actively contribute to open-source projects, which will not only allow me to give back to the tech community but also help me improve my coding skills and collaborate with other developers. Building a strong GitHub portfolio through these contributions is a key milestone I aim to achieve. Additionally, I intend to obtain certification in cloud computing, specifically focusing on AWS or Azure, to leverage cloud technologies for scalable and reliable application deployment.</p>
+            <p>Furthermore, I plan to develop and deploy a full-stack application, integrating both front-end and back-end technologies, to showcase my capabilities as a developer. This project will serve as a testament to my skills and a valuable addition to my professional portfolio. By the end of these two years, I aspire to have a comprehensive understanding of the full development cycle, from ideation to deployment, and be well-equipped to tackle complex technical challenges in the ever-evolving tech landscape.</div></p>
+            <button onclick="myFunction()" id="myBtn">Read more</button>
+        </section>
+    </p>
+</div>
+<!-- controls the current time, day of the week and slack details -->
+    </section>
+    <div class="current">
+    <p data-testid="slackDisplayName">Slack Name: <span>Latifa</span></p>
+    <p data-testid="currentTimeUTC">Current Time (UTC): <span id="utc-time"></span></p>
+    <p data-testid="currentDay">Current Day: <span id="current-day"></span></p>
+    <img data-testid="slackProfilePicture" src="path/image.jpg" alt="Slack Profile Picture" width="natural width" height="natural height" class="center">
+    <p data-testid="slackEmail">Slack Email: <span>latifajibriinu@gmail.com</span></p>
+    </div>
+    <!-- contains useful links -->
+        <p>Useful Links:</p>
+        <div class="links">
+        <ul>
+            <li><a data-testid="hngLink" href="https://hng.tech/learn">HNG Learn</a></li>
+            <li><a data-testid="keywordLink" href="https://keyword.dog">Keyword Dog</a></li>
+            <li><a data-testid="scrapeanywebLink" href="https://scrapeanyweb.site">Scrape Any Web</a></li>
+        </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
